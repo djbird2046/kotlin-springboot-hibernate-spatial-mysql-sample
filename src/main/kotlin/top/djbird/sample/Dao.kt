@@ -13,7 +13,6 @@ data class LocationDao (
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = -1,
 
-    @Column(columnDefinition = "Geometry")
     var location: Point = GeometryFactory().createPoint(Coordinate(0.0, 0.0)),
 
     var createAt: LocalDateTime = LocalDateTime.now()

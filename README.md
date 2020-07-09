@@ -1,4 +1,4 @@
-## A Sample with Kotlin, Gradle, SpringBoot, Hibernate Spatial and MySQL5.7 
+## A Minimal Sample with Kotlin, Gradle, SpringBoot, Hibernate Spatial and MySQL5.7 
 
 ### Usage
 - Run MySQL, create a table as ```schema.sql``` and config datasource ```application.yml```
